@@ -1,0 +1,122 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+header {
+   position: relative;
+   width: 100%;
+   min-height: auto;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+   background-position: center;
+   background-image: url("../img/panodefundo.jpg");
+   text-align: center;
+   color: white;
+
+}
+
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+
+.img-icon{
+    width: 20%;
+    border: 7px solid grey;
+}
+
+header .header-content .header-content-inner h1 {
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-top: 0;
+   margin-bottom: 0;
+   font-size: 30px;
+   text-align: center;
+ }
+
+@media (min-width: 768px) {
+   header {
+     min-height: 100%;
+     text-align: center;
+   }
+   header .header-content {
+     position: absolute;
+     top: 50%;
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+     padding: 0 50px;
+     text-align: center;
+   }
+
+   header .header-content .header-content-inner {
+     max-width: 1000px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+   }
+
+   header .header-content .header-content-inner h1 {
+     font-size: 50px;
+     text-align: center;
+   }
+
+  header .header-content .header-content-inner p {
+     font-size: 18px;
+     max-width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+   }
+
+.shadow {
+   text-shadow: black 0.1em 0.1em 0.5em;
+}
+
+.text-center{
+text-align: center;
+}
+
+hr.light {
+  border-width: 4px;
+  max-width: 200px;
+}
+
+section{
+  padding: 100px 0;
+}
+
+.background-section{
+  background-color: #747d8c;
+}
+
+.thumbnail{
+  border: 2px solid #3ebcd2 !important;
+}
+
+.btn-green{
+  color: #fff;
+  background-color: #3ebcb2;
+  border-color: #3ebcb2;
+}
+
+a:focus, a:hover{
+  color: white !important;
+  text-decoration: none !important;
+  background-color: #35a097;
+}
+
+.tamb-img{
+  width: 100%;
+  height: 215px !important;
+}
+
+.tam-img-carrousel{
+  width: 180px !important;
+  height: 180px !important;
+}
