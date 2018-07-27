@@ -4,6 +4,7 @@ html, body{
 }
 
 header {
+   font-family: 'Changa', sans-serif;
    position: relative;
    width: 100%;
    min-height: auto;
@@ -54,19 +55,19 @@ header .header-content .header-content-inner h1 {
      text-align: center;
    }
 
-   header .header-content .header-content-inner {
+header .header-content .header-content-inner {
      max-width: 1000px;
      margin-left: auto;
      margin-right: auto;
      text-align: center;
    }
 
-   header .header-content .header-content-inner h1 {
+header .header-content .header-content-inner h1 {
      font-size: 50px;
      text-align: center;
    }
 
-  header .header-content .header-content-inner p {
+header .header-content .header-content-inner p {
      font-size: 18px;
      max-width: 80%;
      margin-left: auto;
@@ -119,4 +120,9 @@ a:focus, a:hover{
 .tam-img-carrousel{
   width: 180px !important;
   height: 180px !important;
+}
+.text-center-footer{
+  font-size: 20px;
+  text-align: center;
+  background-color: grey;
 }
